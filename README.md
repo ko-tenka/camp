@@ -8,14 +8,14 @@
 npm install
 ```
 
-### Запуск сервера (server)
+Запуск сервера (server)
 
 ```bash
 npm install
 npm run dev
 ```
 
-### Запуск клиента (client)
+Запуск клиента (client)
 
 ```bash
 npm install
