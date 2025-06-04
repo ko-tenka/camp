@@ -8,6 +8,12 @@ npm install
 Запусти server 
 npm install
 npm run dev
+### Запуск сервера (server)
+
+```bash
+cd server
+npm run dev
+```
 
 Запусти client 
 npm install
