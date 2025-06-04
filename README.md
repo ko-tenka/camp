@@ -5,16 +5,16 @@
 Клонируйте репозиторий и установите зависимости:
 npm install
 
-Запусти server 
-npm install
-npm run dev
 ### Запуск сервера (server)
 
 ```bash
-cd server
+npm install
 npm run dev
 ```
 
-Запусти client 
+### Запуск клиента (client)
+
+```bash
 npm install
 npm run dev
+```
