@@ -1,0 +1,37 @@
+.formContainer {
+    width: 100%;
+    max-width: 600px; /* Ширина формы на больших экранах */
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form .ant-form-item-label {
+    text-align: left; /* Выравнивание меток слева */
+}
+
+.timePickerContainer {
+    display: flex;
+    gap: 10px;
+}
+
+/* Медиа-запросы для адаптации на мобильные устройства */
+@media screen and (max-width: 600px) {
+    .formContainer {
+        padding: 0 20px; 
+    }
+
+    .form .ant-form-item {
+        margin-bottom: 16px; /* Увеличение отступа между элементами формы */
+    }
+
+    .timePickerContainer {
+        flex-direction: column; /* Расположение TimePicker'ов в столбец на мобильных устройствах */
+    }
+}

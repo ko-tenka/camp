@@ -1,0 +1,35 @@
+.title{
+    font-size: 22px;
+}
+.calendarConteiner{
+    width: 100%;
+}
+.ant-picker-dropdown {
+    left: auto; /* Сбрасываем значение left */
+    right: 50px; /* Правое смещение */
+  }
+
+.strelk{
+    display: flex;
+    flex-direction: column;
+    width: 30px;
+
+    margin-left: 10px;
+}
+.card{
+    margin-top: 10px;
+    display: flex;
+    margin-right: 15%;
+}
+.btnstr{
+    height: 15px;
+
+}
+
+
+.count{
+    display: flex;
+}
+.countnum{
+    margin-top: -5px;
+}

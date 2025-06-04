@@ -1,0 +1,88 @@
+
+.footer {
+    background-color: #083248;
+    margin-top: -5px;
+    color: white;
+
+  }
+.footer1 {
+    display: flex;
+    justify-content: center;
+  }
+.slovo{
+    opacity: 0.4;
+    text-align: center;
+    margin-right: 10px;
+}
+  .icons {
+    display: flex;
+    justify-content: center; /* Центрирует иконки по горизонтали */
+    align-items: center; /* Выравнивает иконки по центру вертикально */
+    gap: 10px; /* Устанавливает расстояние между иконками */
+    padding: 10px;
+    margin-top: -25px;
+  }
+  
+  .icon {
+    position: relative; /* Позволяет позиционировать иконку поверх круга */
+    width: 50px;
+    height: 50px;
+  }
+  
+  .circle {
+    width: 100%;
+    height: 100%;
+    filter: brightness(0) invert(1); /* Делает иконку белой */
+    opacity: 0.3; /* Делает иконку полупрозрачной */
+  }
+  
+  .one_icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Центрирует иконку внутри круга */
+    filter: brightness(0) invert(1); /* Делает иконку белой */
+    opacity: 0.3; /* Делает иконку полупрозрачной */
+  }
+  
+  .icon:hover .circle {
+    filter: brightness(0) invert(1); /* Меняет цвет круга */
+    background-color: rgb(251, 251, 251);
+    border-radius: 50px;
+    opacity: 0.2;
+    transition: filter 0.3s, opacity 0.3s;
+  }
+  
+  .icon:hover .one_icon {
+    filter: brightness(0) invert(1); /* Меняет цвет иконки */
+    opacity: 1; /* Уменьшает прозрачность иконки */
+    transition: filter 0.2s;
+  }
+.txt{
+    opacity: 0.4;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+}
+.whiteA{
+    
+    color: white;
+
+}
+.whiteA:hover{
+    text-decoration: none;
+}
+.sviz{
+    color: white;
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.palochka{
+    margin-left: 5px;
+    margin-right: 5px;
+}

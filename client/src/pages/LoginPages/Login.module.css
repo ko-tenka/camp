@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(255, 228, 196, 0.306);
+}
+
+.form {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.657); 
+  backdrop-filter: blur(10px); 
+}
+
+.form p {
+  color: red;
+}
+
+
+.formGroup {
+  margin-bottom: 15px;
+  position: relative;  
+}
+
+.formInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+.formLabel {
+  display: block;
+  position: absolute;
+  left: 10px; 
+  top: 50%; 
+  transform: translateY(-50%); 
+  font-size: 16px; 
+  color: #aaa; 
+  pointer-events: none; 
+  transition: all 0.3s;
+}
+
+.formInput:focus + .formLabel, 
+.formInput:not(:placeholder-shown) + .formLabel {
+  transform: translateY(-100%) translateY(-8px); 
+  font-size: 12px;
+  color: rgb(13, 240, 248); 
+}
+
+.formButton {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(248, 39, 102);
+  color: #fff;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  /* background-color: rgb(13, 240, 248); */
+  background-color: rgb(18, 123, 127);
+   box-shadow: 2px 2px 8px rgb(18, 123, 127);
+}
+
+.headerReg {
+	text-align: center; 
+	 color: rgb(18, 123, 127);
+   margin-bottom: 20px;
+   font-size: 20px;
+}
+
+.btn {
+  
+}

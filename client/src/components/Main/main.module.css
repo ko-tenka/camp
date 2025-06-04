@@ -1,0 +1,194 @@
+@media (max-width: 360px) {
+
+    .calendar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 220px;
+    }
+}
+
+@media (min-width: 361px) and (max-width: 760px) {
+
+    .calendar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 220px;
+    }
+
+}
+
+@media (min-width: 761px) and (max-width: 1140px) {
+
+
+    .calendar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+    }
+}
+
+@media (min-width: 1141px) {
+
+
+
+    .calendar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 60px;
+    }
+
+}
+
+
+.calendar {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+
+    background-color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.116);
+}
+
+
+
+.tentCamp {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    background-image: url('../../assets/camping.jpeg');
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    align-content: end;
+    overflow: hidden;
+    transition: background-size 0.9s;
+    border-radius: 12px;
+}
+.tentCamp:hover {
+    background-size: 520px 320px;
+}
+
+
+.vanCamp {
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    background-image: url('../../assets/avtocamp2.jpeg');
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+    align-content: end;
+    overflow: hidden;
+    transition: background-size 0.9s;
+    border-radius: 12px;
+}
+.vanCamp:hover {
+    background-size: 520px 320px;
+}
+
+.allRouters {
+    width: 380px;
+    height: 450px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 25px;
+    align-items: center;
+    background-image: url('../../assets/navi.jpeg');
+    background-size: 380px 450px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    color: #f6f6f6;
+    overflow: hidden;
+    transition: background-size 0.9s;
+    border-radius: 12px;
+}
+
+.allRouters:hover {
+    box-shadow: 3px 3px 10px 1px rgb(188, 188, 195);
+    color: #77eb75;
+    background-size: 390px 460px;
+  }
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   padding-bottom: 100px;
+    background-color: #f5fafd;
+}
+
+
+.cardsCamping{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-bottom: 90px; */
+    background-color: #f5fafd;
+}
+
+.allCamp {
+    width: 350px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #f5fafd;
+    overflow: hidden;
+    font-size: 22px;   
+    position: relative; 
+    background-image: url('https://www.energieleben.at/wp-content/uploads/2022/05/scott-goodwill-y8Ngwq34_Ak-unsplash-1-960x1280.jpg');
+    background-size: 350px 400px;
+    background-repeat: no-repeat;
+    transition: background-size 0.9s;
+}
+
+
+.allCamp h1{
+    z-index: 2;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.campImg {
+    width: 350px;
+    height: 400px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.allCamp:hover {
+    box-shadow: 3px 3px 10px 1px rgb(188, 188, 195);
+    background-size: 360px 410px;
+  }
+
+  .elements {
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.naviDiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #f5fafd;
+}
+
+
+
+

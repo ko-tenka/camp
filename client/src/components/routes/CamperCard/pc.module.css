@@ -1,0 +1,164 @@
+@media (max-width: 360px) {
+
+    .flexCard {
+        flex-direction: column;
+    }
+    .card {
+
+        width: 320px;
+        height: 400px;
+        margin: 5px;
+    }
+    .carousel{
+        width: 320px;
+        height: 200px;
+        padding: 5px;
+    }
+    .img {
+        display: block;
+        width: 100%;
+        height: 200px;
+    }
+    .flexText {
+        width: 320px;
+        height: 100px;
+        padding: 5px;
+
+    }
+    .flexPrice {
+        width: 350px;
+        padding: 5px;
+    }
+    .line {
+        width: 1px;
+        background-color: black;
+        opacity: 0.2;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (min-width: 361px) and (max-width: 760px) {
+    .flexCard {
+        flex-direction: column;
+    }
+    .card {
+
+        width: 360px;
+        height: 400px;
+        margin: 5px;
+    }
+    .carousel{
+        width: 360px;
+        height: 200px;
+        padding: 5px;
+    }
+    .img {
+        display: block;
+        width: 100%;
+        height: 200px;
+    }
+    .flexText {
+        width: 360px;
+        height: 100px;
+        padding: 5px;
+    }
+    .flexPrice {
+        width: 350px;
+        padding: 5px;
+    }
+    .line {
+        width: 1px;
+        background-color: black;
+        opacity: 0.2;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+
+
+}
+
+@media (min-width: 761px) and (max-width: 1140px) {
+    .card {
+        width: 760px;
+        height: 150px;
+        margin: 5px;
+    }
+    .carousel{
+        width: 220px;
+        height: 150px;
+        padding: 5px;
+    }
+    .img {
+        display: block;
+        width: 100%;
+        height: 140px;
+    }
+    .flexText {
+        width: 300px;
+        padding: 5px;
+    }
+    .flexPrice {
+        width: 200px;
+        padding: 5px;
+    }
+    .line {
+        width: 1px;
+        background-color: black;
+        opacity: 0.2;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    
+}
+
+@media (min-width: 1141px) {
+    .card {
+        width: 700px;
+        height: 150px;
+        margin: 5px;
+    }
+
+    .carousel{
+        width: 220px;
+        padding: 5px;
+    }
+    .img {
+        display: block;
+        width: 100%;
+        height: 140px;
+    }
+    
+    .flexText {
+        width: 340px;
+        padding: 5px;
+    }
+    
+    .flexPrice {
+        width: 190px;
+        padding: 5px;
+    }
+    
+    
+    .line {
+        width: 1px;
+        background-color: black;
+        opacity: 0.2;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+}
+
+
+.flexText {
+    justify-content: center;
+}
+.flexPrice {
+    justify-content: center;
+}
+
+

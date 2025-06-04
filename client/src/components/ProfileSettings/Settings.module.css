@@ -1,0 +1,103 @@
+.userEmail {
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 10px;
+	border: 1px solid #b5b8bd;
+	border-radius: 3px;
+	display: flex;
+	max-width: 370px;
+}
+
+.email {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	height: 37px;
+	width: 100px;
+	color: #717a8f;
+	font-weight: 700;
+	font-size: 14px;
+	border-right: 1px solid #b5b8bd;
+	padding-right: 10px;
+}
+
+.emailInput {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 40px;
+	border-left: none;
+	flex: 1;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.outlined {
+	padding-right: 10px;
+	color: #b5b8bd;
+}
+
+.outlined:hover {
+	color: #67696b;
+}
+
+.userPass {
+  color: black;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-right: 10px;
+	border: 1px solid #b5b8bd;
+	border-radius: 3px;
+	display: flex;
+	max-width: 370px;
+  text-decoration: none;
+}
+
+
+.password {
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	height: 37px;
+	width: 100px;
+	color: #717a8f;
+	font-weight: 700;
+	font-size: 15px;
+	border-right: 1px solid #b5b8bd;
+	padding-right: 10px;
+}
+
+.passInput {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 40px;
+	border-left: none;
+	flex: 1;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.outlined {
+	padding-right: 10px;
+	color: #b5b8bd;
+}
+
+.outlined1 {
+	padding-right: 10px;
+	color: #b5b8bd;
+}
+
+.outlined:hover {
+	color: #67696b;
+	cursor: pointer;
+}
+
+.header {
+	font-weight: 600;
+	color: #4f5152;
+	margin: 10px;
+	margin-left: 30px;
+
+}
